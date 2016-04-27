@@ -2,8 +2,10 @@
 schema: default
 title: test dataset
 organization: ''
-notes: not a real thing
-license: ''
+notes: Not a real thing
+license: 'http://www.opendefinition.org/licenses/odc-pddl'
+category:
+  - Uncategorized
 maintainer: ''
 maintainer_email: ''
 ---
