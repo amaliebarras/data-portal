@@ -56,3 +56,33 @@ Make the design modular so that other cities can fork & replace our content.
 
 ### After
 ![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Sitemap%20New%20v3.png)
+
+## User Stories
+
+As a newbie, I can arrive at the homepage, read about what's going on, see some examples, and feel like I know how to get started.
+
+As a visitor, I can go straight to the portal page to accomplish my task. 
+
+As a visitor, I can browse datasets by category and contributor. 
+
+As a visitor, I can view projects which correspond to a dataset.
+
+As a visitor, I can figure out how to become a contributor.
+
+As a visitor I can view a resource page to learn how to structure & store data, what tools to use to work with it, & how to get a project off the ground.
+
+As a visitor, I can mark that I've used a dataset.
+
+As a visitor, I can leave an evaluation for a dataset.
+
+As a contributor, I can post a dataset.
+
+As a contributor, I can link to a project I made using a dataset.
+
+## Inspiration
+
+Staying consistent with [Open Austin branding](http://www.open-austin.org/) makes a lot of sense.
+
+[The Opportunity Project](http://opportunity.census.gov/) provides examples of projects to demonstrate the value of open data. 
+
+The [City of New York](https://data.cityofnewyork.us/data?cat=public%20safety) data portal is built on socrata but has designed around that. They must be doing something right since they are the #1 place in the US for [open city data](http://us-city.census.okfn.org/).
