@@ -26,19 +26,19 @@ Notes on similar platform from [Code for America Regional Data Portal Webinar](h
     * Encourage guest lectures at meetups
 
 ## SWOT
-Strengths
+* Strengths
     * Streamlined
     * Simple
     * Lightweight
-Weaknesses
+* Weaknesses
     * Unwelcoming
     * Assumes prior knowledge
     * Doesn't demonstrate value
-Opportunities
+* Opportunities
     * Welcome users
     * Demonstrate value of open data
     * Help with projects
-Threats
+* Threats
     * Legal issues
     * Complexity 
     * Scope Creep
@@ -47,9 +47,12 @@ Threats
 
 Make the data portal newbie friendly without disrupting the flow of existing users.
 
-Make the design modular so that other cities can replace our content.
+Make the design modular so that other cities can fork & replace our content.
 
 ## Sitemap
 
+### Before
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Sitemap%20Before.png)
 
-
+### After
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Sitemap%20New%20v3.png)
