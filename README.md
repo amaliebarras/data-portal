@@ -86,3 +86,16 @@ Staying consistent with [Open Austin branding](http://www.open-austin.org/) make
 [The Opportunity Project](http://opportunity.census.gov/) provides examples of projects to demonstrate the value of open data. 
 
 The [City of New York](https://data.cityofnewyork.us/data?cat=public%20safety) data portal is built on socrata but has designed around that. They must be doing something right since they are the #1 place in the US for [open city data](http://us-city.census.okfn.org/).
+
+## Sketches
+
+I decided to build out a homepage and resources page in addition to the portal. 
+
+#### Mobile
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/sketches/MobileSketches.png)
+
+#### Tablet 
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/sketches/TabletSketches.png)
+
+#### Desktop
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/sketches/DesktopSketches.png)
