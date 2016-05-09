@@ -91,15 +91,29 @@ The [City of New York](https://data.cityofnewyork.us/data?cat=public%20safety) d
 
 I decided to build out a homepage and resources page in addition to the portal. 
 
-#### Mobile
+#### Small
 ![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/sketches/MobileSketches.png)
 
-#### Tablet 
+#### Medium
 ![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/sketches/TabletSketches.png)
 
-#### Desktop
+#### Large
 ![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/sketches/DesktopSketches.png)
 
 ## Wireframes
 
+#### Small (Individual files [here](https://github.com/amaliebarras/data-portal/tree/gh-pages/Research/Mobile%20Wireframes))
 
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Mobile%20Wireframes/WireframesSidebySideMobile.png)
+
+#### Medium + (Individual files [here](https://github.com/amaliebarras/data-portal/tree/gh-pages/Research/Tablet%20Wireframes))
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Tablet%20Wireframes/WireframesSidebySideLarge.png)
+
+## Mockups
+
+#### Small (Individual files [here](https://github.com/amaliebarras/data-portal/tree/gh-pages/Research/Mobile%20Mockups))
+
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Mobile%20Mockups/MobileMockupsSidebySide.png)
+
+#### Medium + (Individual files [here](https://github.com/amaliebarras/data-portal/tree/gh-pages/Research/Large%20Mockups))
+![](https://github.com/amaliebarras/data-portal/blob/gh-pages/Research/Large%20Mockups/LargeMockupsSidebyside.png)
