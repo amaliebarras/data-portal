@@ -1,3 +1,7 @@
+* {
+  color: #CD4BBC;
+}
+
 .organization-thumbnail img {
   width: 64px;
 }
@@ -82,7 +86,7 @@ dataset {
 }
 
 .homepage-categories a {
-  color: #000;
+  color: #CD4BBC;
 }
 
 .theme-gallery .panel {

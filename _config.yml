@@ -1,5 +1,5 @@
-title: JKAN
-greeting: Welcome to JKAN
+title: PinkKan
+greeting: Welcome to PinkKan
 description: A lightweight, backend-free open data portal, powered by Jekyll.
 baseurl: /data-portal
 logo: /img/jkan.png
@@ -16,10 +16,8 @@ schema: default
 
 # Nav bar
 navigation:
-  - title: Datasets
+  - title: Data
     url: /datasets/
-  - title: Organizations
-    url: /organizations/
 
 # Collections
 collections:
