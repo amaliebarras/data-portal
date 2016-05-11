@@ -3,7 +3,6 @@ title: Datasets
 layout: default
 permalink: /datasets/
 ---
-{% include breadcrumbs.html %}
 
 <div class="row">
   <div class="col-sm-4">
@@ -20,4 +19,21 @@ permalink: /datasets/
     <input type="text" data-hook="search-query" placeholder="Search..." class="form-control">
     <div data-hook="datasets-items"></div>
   </div>
+
+<div class="homepage-categories">
+{% for category in site.data.categories %}
+  {% if category.featured == true %}
+    {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}
+    <a href="{{ site.baseurl }}/datasets/?category={{ category.name | slugify }}" class="thumbnail" title="{{ logo_alt }}">
+      {% if category.logo and category.logo != empty %}
+        <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ logo_alt }}">
+      {% endif %}
+      {{ category.name }}
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+
 </div>

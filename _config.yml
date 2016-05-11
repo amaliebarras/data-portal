@@ -1,6 +1,6 @@
 title: PANDA
 greeting: Welcome to PANDA!
-description: A lightweight, backend-free open data portal, powered by Jekyll.
+description: The People of Austin's Network for Data Accessibility.
 baseurl: /data-portal
 logo: /img/jkan.png
 
@@ -18,6 +18,8 @@ schema: default
 navigation:
   - title: Data
     url: /datasets/
+  - title: Resources
+    url: /resources/
 
 # Collections
 collections:

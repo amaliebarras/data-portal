@@ -39,7 +39,7 @@ Notes on similar platform from [Code for America Regional Data Portal Webinar](h
     * Demonstrate value of open data
     * Help with projects
 * Threats
-    * Legal issues
+    * Licensing Issues w/ Datasets
     * Complexity 
     * Scope Creep
 

@@ -2,26 +2,116 @@
 layout: default
 ---
 
-<div class="jumbotron">
-  <h1>{{ site.greeting }}</h1>
-  <p>
-    {{ site.description }}
-  </p>
-  <p><a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/datasets" role="button">Start browsing</a></p>
+<section class="container">
+<div class="row">
+  <div class = "row titlewrapper">
+    <div class = "col-sm-12">
+      <h2>{{ site.greeting }}</h2>
+       <p>
+        {{ site.description }}
+      </p>
+      </div>
+  </div>
+  <div class = "row description">
+    <div class = "col-sm-6 col-6">
+      <div class = "row">
+        <div class = "col-sm-12 col-12">
+          <p>
+            In this portal live links to a ton of fascinating datasets related to the place you live, and it’s all completely free for you to use and make awesome stuff with. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class = "col-sm-6 col-lg-offset-3">
+      <div class = "three things">
+        <p class = "info-tiles">
+          <div class = "row">
+            <div class = "thing col-xs-4"><h6><i class="fa fa-search" aria-hidden="true"></i></h6>
+            <h4>Find</h4>
+            <p>datasets by category, contributor, and score</p>
+            </div>
+             <div class = "thing col-xs-4"><h6><i class="fa fa-lightbulb-o" aria-hidden="true"></i></h6>
+            <h4>Learn</h4>
+            <p>about tools to move projects along</p>
+            </div>
+            <div class = "thing col-xs-4"><h6><i class="fa fa-plus" aria-hidden="true"></i></h6>
+            <h4>Add</h4>
+            <p>open data links & projects</p>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "col-xs-4 col-xs-offset-4">
+                <a class="learnmore" href="{{ site.baseurl }}/resources" role="button">Learn More</a>
+            </div>
+          </div>
+        </p>
+         
+       </div>
+    </div>
+  </div>
 </div>
 
-<h3>Browse by Cool Category</h3>
+<div class = "row examples">
+  <div class = "row exampletitle">
+    <div class = "col-xs-12">
+      <h2>Example Projects</h2>
+    </div>
+  </div>
+  <div class = "row explanation">
+    <div class = "col-xs-12">
+      <p>Here are a few ways people around you are using open data to make Austin awesome.</p>
+    </div>
+  </div>
+  <div class = "row examples">
+    <div class = "row example">
+      <div class = "col-xs-6 col-sm-4">
+        <div class = "exampleimage">
+        </div>
+      </div>
+      <div class = "col-xs-6 col-sm-4">
+        <a href = "#">Austin Green Map</a><br>
+        <p>An interactive map of 
+        Austin parks that you 
+        can search by 
+        amenity.</p>
+      </div>
+    </div>
+    <div class = "row example">
+      <div class = "col-xs-6 col-sm-4">
+        <div class = "exampleimage">
+        </div>
+      </div>
+      <div class = "col-xs-6 col-sm-4">
+        <a href = "#">Open Data Report Card</a><br>
+        <p>A scorecard to track 
+        adoption of CoA’s 
+        Open Data Initiative</p>
+      </div>
+    </div>
+    <div class = "row example">
+      <div class = "col-xs-6 col-sm-4">
+        <div class = "exampleimage">
+        </div>
+      </div>
+      <div class = "col-xs-6 col-sm-4">
+        <a href = "#">Capmetrics</a><br>
+        <p>A data visualization of
+        the bus’ actual versus 
+        planned schedule</p>
+      </div>
+    </div>
+    <div class = "col-xs-12">
+    <h2 class = "center">Ready to get started?</h2>
+    <br>
+      <div class = "col-sm-6">
+        <p class = "center">Learn how to start a project or become a contributor</p><br>
+        <a class = "center" href = "#">Resources</a><br><br>
+      </div>
+      <div class = "col-sm-6">
+        <p class = "center">Or jump right in and browse the datasets</p><br>
+        <a class = "center" href = "#">Go to Data</a>
+      </div>
+    </div>
+  </div>
 
-<div class="homepage-categories">
-{% for category in site.data.categories %}
-  {% if category.featured == true %}
-    {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}
-    <a href="{{ site.baseurl }}/datasets/?category={{ category.name | slugify }}" class="thumbnail" title="{{ logo_alt }}">
-      {% if category.logo and category.logo != empty %}
-        <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ logo_alt }}">
-      {% endif %}
-      {{ category.name }}
-    </a>
-  {% endif %}
-{% endfor %}
-</div>
+</section>
